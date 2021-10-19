@@ -28,7 +28,7 @@ export class GithubOidcStack extends cdk.Stack {
 
     const role = new iam.Role(this, 'GitHubActions', {
       managedPolicies: [
-        iam.ManagedPolicy.fromAwsManagedPolicyName('PowerUserAccess'),
+        iam.ManagedPolicy.fromAwsManagedPolicyName('AdministratorAccess'),
       ],
       assumedBy: principal,
     })

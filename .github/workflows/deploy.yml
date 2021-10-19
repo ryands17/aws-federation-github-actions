@@ -9,6 +9,7 @@ jobs:
       AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
       AWS_WEB_IDENTITY_TOKEN_FILE: '/tmp/awscreds'
       AWS_DEFAULT_REGION: us-east-2
+      AWS_REGION: us-east-2
     permissions:
       id-token: write
       contents: read
@@ -48,4 +49,6 @@ jobs:
           export AWS_SESSION_TOKEN=$(echo $AWS_CREDS | jq -r '.Credentials.SessionToken')
 
       - name: Deploy app
-        run: aws s3 ls
+        run: |
+          aws s3 ls
+          yarn deploy:ci
