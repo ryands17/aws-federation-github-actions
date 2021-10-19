@@ -48,7 +48,7 @@ test('OIDC Provider and IAM role for GitHub Actions are created', () => {
               {
                 Ref: 'AWS::Partition',
               },
-              ':iam::aws:policy/PowerUserAccess',
+              ':iam::aws:policy/AdministratorAccess',
             ],
           ],
         },
