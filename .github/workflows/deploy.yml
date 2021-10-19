@@ -31,7 +31,7 @@ jobs:
             nodeModules-
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: sleep 5 && yarn install --frozen-lockfile
 
       - name: Configure AWS
         run: |
