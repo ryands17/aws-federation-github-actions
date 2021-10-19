@@ -30,7 +30,7 @@ test('OIDC Provider and IAM role for GitHub Actions are created', () => {
             Condition: {
               StringLike: {
                 'token.actions.githubusercontent.com:sub':
-                  'repo:ryands17/aws-federation-github-actions:*',
+                  'repo:ryands17/*:ref:refs/heads/main',
               },
             },
             Effect: 'Allow',

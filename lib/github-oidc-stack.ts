@@ -6,7 +6,6 @@ export class GithubOidcStack extends cdk.Stack {
     super(scope, id, props)
 
     const org = this.node.tryGetContext('org')
-    const repoName = this.node.tryGetContext('repoName')
 
     // GitHub OIDC provider
     const ghOidc = new iam.OpenIdConnectProvider(this, 'GitHub', {
@@ -20,7 +19,7 @@ export class GithubOidcStack extends cdk.Stack {
       ghOidc.openIdConnectProviderArn,
       {
         StringLike: {
-          'token.actions.githubusercontent.com:sub': `repo:${org}/${repoName}:*`,
+          'token.actions.githubusercontent.com:sub': `repo:${org}/*:ref:refs/heads/main`,
         },
       },
       'sts:AssumeRoleWithWebIdentity'
