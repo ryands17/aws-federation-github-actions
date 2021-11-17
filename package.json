@@ -17,7 +17,7 @@
     "@types/jest": "27.0.2",
     "@types/node": "16.11.7",
     "aws-cdk": "1.128.0",
-    "esbuild": "0.13.8",
+    "esbuild": "0.13.14",
     "husky": "7.0.2",
     "jest": "27.3.0",
     "lint-staged": "11.2.3",
