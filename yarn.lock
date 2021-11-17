@@ -1041,7 +1041,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^27.0.2":
+"@types/jest@27.0.2":
   version "27.0.2"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.2.tgz#ac383c4d4aaddd29bbf2b916d8d105c304a5fcd7"
   integrity sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==
@@ -2899,7 +2899,7 @@ jest-worker@^27.3.0:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.3.0:
+jest@27.3.0:
   version "27.3.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.3.0.tgz#25f0e02aaa51d53bc6e1941eb4838a3452f3320e"
   integrity sha512-ZSwT6ROUbUs3bXirxzxBvohE/1y7t+IHIu3fL8WgIeJppE2XsFoa2dB03CI9kXA81znW0Kt0t2R+QVOWeY8cYw==
@@ -3988,7 +3988,7 @@ tr46@^2.1.0:
   dependencies:
     punycode "^2.1.1"
 
-ts-jest@^27.0.7:
+ts-jest@27.0.7:
   version "27.0.7"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-27.0.7.tgz#fb7c8c8cb5526ab371bc1b23d06e745652cca2d0"
   integrity sha512-O41shibMqzdafpuP+CkrOL7ykbmLh+FqQrXEmV9CydQ5JBk0Sj0uAEF5TNNe94fZWKm3yYvWa/IbyV4Yg1zK2Q==
