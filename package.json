@@ -12,11 +12,11 @@
     "deploy:ci": "cdk deploy TestInfraStack --require-approval never"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.132.0",
+    "@aws-cdk/assert": "1.166.1",
     "@types/aws-lambda": "8.10.101",
     "@types/jest": "27.5.2",
     "@types/node": "16.11.45",
-    "aws-cdk": "1.132.0",
+    "aws-cdk": "1.166.1",
     "esbuild": "0.14.49",
     "husky": "7.0.4",
     "jest": "27.5.1",
@@ -27,12 +27,12 @@
     "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigatewayv2": "1.132.0",
-    "@aws-cdk/aws-apigatewayv2-integrations": "1.132.0",
-    "@aws-cdk/aws-iam": "1.132.0",
-    "@aws-cdk/aws-lambda-nodejs": "1.132.0",
-    "@aws-cdk/aws-logs": "1.132.0",
-    "@aws-cdk/core": "1.132.0",
+    "@aws-cdk/aws-apigatewayv2": "1.166.1",
+    "@aws-cdk/aws-apigatewayv2-integrations": "1.166.1",
+    "@aws-cdk/aws-iam": "1.166.1",
+    "@aws-cdk/aws-lambda-nodejs": "1.166.1",
+    "@aws-cdk/aws-logs": "1.166.1",
+    "@aws-cdk/core": "1.166.1",
     "source-map-support": "0.5.21"
   },
   "prettier": {
