@@ -15,7 +15,7 @@
     "@aws-cdk/assert": "1.132.0",
     "@types/aws-lambda": "8.10.104",
     "@types/jest": "27.5.2",
-    "@types/node": "16.11.49",
+    "@types/node": "16.11.59",
     "aws-cdk": "1.132.0",
     "esbuild": "0.15.5",
     "husky": "7.0.4",
