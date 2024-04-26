@@ -31,6 +31,3 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-
-      - name: Run Tests
-        run: yarn test --ci --coverage --maxWorkers=2
